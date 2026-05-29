@@ -7,23 +7,40 @@
     android:padding="24dp"
     android:background="#121212">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRASE A ENCRIPTAR"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp" />
+
     <EditText
         android:id="@+id/etFrase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Frase a encriptar"
+        android:hint="Hola Mundo"
         android:textColor="#FFFFFF"
-        android:textColorHint="#757575"
+        android:textColorHint="#424242"
         android:backgroundTint="#FFFFFF"
-        android:padding="15dp" />
+        android:padding="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO DE DESPLAZAMIENTO"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/etDesplazamiento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Número (clave)"
+        android:hint="Ej. 3"
         android:textColor="#FFFFFF"
-        android:textColorHint="#757575"
+        android:textColorHint="#424242"
         android:backgroundTint="#FFFFFF"
         android:inputType="number"
         android:padding="15dp" />
@@ -31,9 +48,11 @@
     <Button
         android:id="@+id/btnGuardar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="GUARDAR"
+        android:layout_height="60dp"
+        android:text="GUARDAR Y ENCRIPTAR"
         android:backgroundTint="#1E1E1E"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="20dp" />
+        android:textColor="#BB86FC"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
+
 </LinearLayout>

@@ -7,19 +7,36 @@
     android:padding="24dp"
     android:background="#121212">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENSAJES ENCRIPTADOS"
+        android:textColor="#fcf7f7"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp" />
+
     <Spinner
         android:id="@+id/spinnerMensajes"
         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#fcf7f7"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF" />
+        android:text="CLAVE DE DESENCRIPTACIÓN"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/etDesencriptarKey"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Número para desencriptar"
+        android:hint="Ej. 3"
         android:textColor="#FFFFFF"
-        android:textColorHint="#757575"
+        android:textColorHint="#424242"
         android:backgroundTint="#FFFFFF"
         android:inputType="number"
         android:padding="15dp" />
@@ -27,17 +44,19 @@
     <Button
         android:id="@+id/btnProcesarDesencriptar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:text="DESENCRIPTAR"
         android:backgroundTint="#1E1E1E"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="10dp" />
+        android:textColor="#03DAC6"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
 
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="20dp"
-        android:textSize="16sp" />
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:gravity="center" />
 </LinearLayout>
