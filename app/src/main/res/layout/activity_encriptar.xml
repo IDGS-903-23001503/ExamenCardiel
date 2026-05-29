@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#121212">
+
+    <EditText
+        android:id="@+id/etFrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frase a encriptar"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#757575"
+        android:backgroundTint="#FFFFFF"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/etDesplazamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número (clave)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#757575"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="number"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"
+        android:backgroundTint="#1E1E1E"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#121212">
+
+    <Spinner
+        android:id="@+id/spinnerMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etDesencriptarKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número para desencriptar"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#757575"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="number"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btnProcesarDesencriptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESENCRIPTAR"
+        android:backgroundTint="#1E1E1E"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp" />
+</LinearLayout>
